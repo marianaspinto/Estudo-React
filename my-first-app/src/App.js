@@ -1,9 +1,6 @@
 import React from "react";
-
-// Criando um component
-function HelloWorld() {
-  return <h1>Hello World</h1>;
-}
+import HelloWorld from "./Hello";
+import LoremIpsum from "./components/lorem_ipsum";
 
 //  Arrow Funcion
 // function HelloWorld = () => {
@@ -22,6 +19,7 @@ function App() {
   return (
     <div>
       <HelloWorld />
+      <LoremIpsum />
     </div>
   );
 }
