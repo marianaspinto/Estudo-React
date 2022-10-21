@@ -1,6 +1,5 @@
 import React from "react";
-import HelloWorld from "./Hello";
-import LoremIpsum from "./components/lorem_ipsum";
+import Planets from "./components/planets";
 
 //  Arrow Funcion
 // function HelloWorld = () => {
@@ -18,8 +17,7 @@ import LoremIpsum from "./components/lorem_ipsum";
 function App() {
   return (
     <div>
-      <HelloWorld />
-      <LoremIpsum />
+      <Planets />
     </div>
   );
 }
